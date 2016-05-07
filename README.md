@@ -1,18 +1,24 @@
-# ApacheCMDA - Workflow Centric Scientific Social Network
+Folder Hierarchy:
+Code is in:
+ApacheCMDA-Frontend Folder
+ApacheCMDA-Backend Folder
 
-A scientific workflow system is a specialized form of a workflow management system designed specifically to compose and execute a series of computational or data manipulation steps, or workflow, in a scientific application.
+Documentation in:
+Documents Folder
 
-## What we did
-There’s surely no better place for scientists to meet and mingle with other scientists than at a conference. But in this increasingly wired world, more and more of our day-to-day personal interactions are taking place online. And if findings from network science apply to scientists, then building and maintaining an open social network is key when it comes to career success. In this enterprise, more scientists are finding online tools to be instrumental, that is how the scientific targeted workflow social network come out to our mind.
 
-## Who we are
-| Name   | Phone Number | Email|
-|:------:|:------------|:------|
-|Fan luo|(650)695-3830|fanluocmu@gmail.com|
-|Mingyang Ge|(650)695-2159|gmy.gavin@gmail.com|
-|Shi Bai|(650)575-9563|dairystone@gmail.com|
-|Weiying Wang|(669)234-9985|weiyi.wang@sv.cmu.edu |
-|Linquan Chen|(650)521-2598|lqchen613@gamil.com|
-|Junya Li|(412)378-7613 |michelle.lee19920914@gmail.com |
-|Jia Guo|(650)864-2010|annguojia@gmail.com|
-|Zuowei Xie|(201)208-9107|zuowei.xie@sv.cmu.edu|
+The purpose of this project is to modify original code applying to 9 different design pattern. In the website a user can interact with other users in multiple ways. 
+
+To run the website, download all files from github:
+(https://github.com/varunv123/SAD-Spring2016-Team14).
+
+Then make sure mysql is already installed. To load website database, create a new database in mysql named testdb. Then Cd into /ApacheCMDA-Backend/DBDump, import dumped database into testdb using the following command
+Mysql –u root –p testdb<dumpfile.sql
+
+Then cd into /ApacheCMDA-Backend, in the command line type:
+./activator “run 9034”
+
+Cd into /ApacheCMDA-Frontend, in the command line type:
+./activator run
+
+Now the web site is running on localhost:9000. To visit simply open any browser and type localhost:9000.
