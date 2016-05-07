@@ -1,0 +1,12 @@
+2016-05-06 19:35:15,539 - [INFO] - from play in pool-4-thread-3 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2016-05-06 19:35:30,379 - [INFO] - from play in play-internal-execution-context-1 
+datasource [jdbc:h2:file:data/db;DB_CLOSE_DELAY=-1] bound to JNDI as DefaultDS
+
+2016-05-06 19:35:31,137 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:h2:file:data/db
+
+2016-05-06 19:35:33,363 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
